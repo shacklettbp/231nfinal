@@ -1,0 +1,71 @@
+\begin{thebibliography}{10}\itemsep=-1pt
+
+\bibitem{blender}
+{Blender Open Projects}.
+\newblock \url{https://www.blender.org/about/projects/}, 2018.
+
+\bibitem{xiph}
+{Xiph.org Video Test Media [derf's collection]}.
+\newblock \url{https://media.xiph.org/video/derf/}, 2018.
+
+\bibitem{DBLP:journals/corr/AhnC17}
+B.~Ahn and N.~I. Cho.
+\newblock Block-matching convolutional neural network for image denoising.
+\newblock {\em CoRR}, abs/1704.00524, 2017.
+
+\bibitem{av1improv1}
+D.~Chen, C.~Fu, and F.~Zhu.
+\newblock Av1 video coding using texture analysis with convolutional neural
+  networks.
+\newblock abs/1804.09291, 2018.
+
+\bibitem{DBLP:journals/corr/abs-1804-09869}
+Z.~Chen, T.~He, X.~Jin, and F.~Wu.
+\newblock Learning for video compression.
+\newblock {\em CoRR}, abs/1804.09869, 2018.
+
+\bibitem{av1improv2}
+C.~Fu, D.~Chen, E.~J. Delp, Z.~Lui, and F.~Zhu.
+\newblock Texture segmentation based video compression using convolutional
+  neural networks.
+\newblock abs/1802.02992, 2018.
+
+\bibitem{DBLP:journals/corr/abs-1712-01111}
+R.~Hou, C.~Chen, and M.~Shah.
+\newblock An end-to-end 3d convolutional neural network for action detection
+  and segmentation in videos.
+\newblock {\em CoRR}, abs/1712.01111, 2017.
+
+\bibitem{LeGall}
+D.~Le~Gall.
+\newblock {MPEG}: A video compression standard for multimedia applications.
+\newblock {\em Commun. ACM}, 34(4):46--58, Apr. 1991.
+
+\bibitem{Minnen}
+D.~Minnen, G.~Toderici, S.~Singh, S.~J. Hwang, and M.~Covell.
+\newblock Image-dependent local entropy models for learned image compression.
+\newblock abs/1805.12295, 2018.
+
+\bibitem{DBLP:journals/corr/TodericiOHVMBCS15}
+G.~Toderici, S.~M. O'Malley, S.~J. Hwang, D.~Vincent, D.~Minnen, S.~Baluja,
+  M.~Covell, and R.~Sukthankar.
+\newblock Variable rate image compression with recurrent neural networks.
+\newblock {\em CoRR}, abs/1511.06085, 2015.
+
+\bibitem{DBLP:journals/corr/TodericiVJHMSC16}
+G.~Toderici, D.~Vincent, N.~Johnston, S.~J. Hwang, D.~Minnen, J.~Shor, and
+  M.~Covell.
+\newblock Full resolution image compression with recurrent neural networks.
+\newblock {\em CoRR}, abs/1608.05148, 2016.
+
+\bibitem{van2001vision}
+C.~van~den Branden~Lambrecht.
+\newblock {\em Vision Models and Applications to Image and Video Processing}.
+\newblock Springer US, 2001.
+
+\bibitem{DBLP:journals/corr/abs-1804-06919}
+C.~Wu, N.~Singhal, and P.~Kr{\"{a}}henb{\"{u}}hl.
+\newblock Video compression through image interpolation.
+\newblock {\em CoRR}, abs/1804.06919, 2018.
+
+\end{thebibliography}

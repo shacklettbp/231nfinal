@@ -1,0 +1,25 @@
+\begin{thebibliography}{1}\itemsep=-1pt
+
+\bibitem{DBLP:journals/corr/DongLHT15}
+C.~Dong, C.~C. Loy, K.~He, and X.~Tang.
+\newblock Image super-resolution using deep convolutional networks.
+\newblock {\em CoRR}, abs/1501.00092, 2015.
+
+\bibitem{LeGall}
+D.~Le~Gall.
+\newblock Mpeg: A video compression standard for multimedia applications.
+\newblock {\em Commun. ACM}, 34(4):46--58, Apr. 1991.
+
+\bibitem{prednet}
+W.~Lotter, G.~Kreiman, and D.~D. Cox.
+\newblock Deep predictive coding networks for video prediction and unsupervised
+  learning.
+\newblock {\em CoRR}, abs/1605.08104, 2016.
+
+\bibitem{5389233}
+P.~H. Westerink, R.~Rajagopalan, and C.~A. Gonzales.
+\newblock Two-pass mpeg-2 variable-bit-rate encoding.
+\newblock {\em IBM Journal of Research and Development}, 43(4):471--488, July
+  1999.
+
+\end{thebibliography}

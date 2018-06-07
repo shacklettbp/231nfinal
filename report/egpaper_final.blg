@@ -1,0 +1,56 @@
+This is BibTeX, Version 0.99d (TeX Live 2017)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: egpaper_final.aux
+The style file: ieee.bst
+Database file #1: egbib.bib
+Warning--entry type for "xiph" isn't style-file defined
+--line 181 of file egbib.bib
+Warning--entry type for "blender" isn't style-file defined
+--line 188 of file egbib.bib
+Warning--to sort, need author or key in xiph
+Warning--to sort, need author or key in blender
+Warning--empty journal in av1improv1
+Warning--empty journal in av1improv2
+Warning--empty journal in Minnen
+You've used 13 entries,
+            2120 wiz_defined-function locations,
+            566 strings with 5935 characters,
+and the built_in function-call counts, 3722 in all, are:
+= -- 338
+> -- 243
+< -- 0
++ -- 98
+- -- 84
+* -- 258
+:= -- 675
+add.period$ -- 37
+call.type$ -- 13
+change.case$ -- 80
+chr.to.int$ -- 0
+cite$ -- 18
+duplicate$ -- 127
+empty$ -- 247
+format.name$ -- 84
+if$ -- 734
+int.to.chr$ -- 0
+int.to.str$ -- 13
+missing$ -- 12
+newline$ -- 66
+num.names$ -- 22
+pop$ -- 81
+preamble$ -- 1
+purify$ -- 68
+quote$ -- 0
+skip$ -- 99
+stack$ -- 0
+substring$ -- 85
+swap$ -- 10
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 50
+warning$ -- 5
+while$ -- 24
+width$ -- 15
+write$ -- 135
+(There were 7 warnings)
