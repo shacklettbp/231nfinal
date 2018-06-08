@@ -32,21 +32,58 @@
 \@writefile{toc}{\contentsline {section}{\numberline {2}\hskip -1em.\nobreakspace  {}Related Work}{4322}{section.2}}
 \@writefile{toc}{\contentsline {section}{\numberline {3}\hskip -1em.\nobreakspace  {}Dataset \& Features}{4322}{section.3}}
 \citation{van2001vision}
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces Frame from the 1080p ``Netflix\_SquareAndTimelapse'' video from the \texttt  {objective-2-slow} dataset.\relax }}{4323}{figure.caption.1}}
+\@writefile{toc}{\contentsline {section}{\numberline {4}\hskip -1em.\nobreakspace  {}Methods}{4323}{section.4}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces Data flow for the overall network.\relax }}{4323}{figure.caption.2}}
+\providecommand*\caption@xref[2]{\@setref\relax\@undefined{#1}}
+\newlabel{fig:core}{{2}{4323}{Data flow for the overall network.\relax }{figure.caption.2}{}}
+\citation{DBLP:journals/corr/HeZRS15}
+\citation{DBLP:journals/corr/IoffeS15}
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces Input and output of the predictor network.\relax }}{4324}{figure.caption.3}}
+\newlabel{fig:ctx}{{3}{4324}{Input and output of the predictor network.\relax }{figure.caption.3}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces The Predictor network. Red represents 3D convolutions, green represents 2D convolutions, blue represents ReLUs, and yellow represents the squeeze operation to remove the time dimension. K, S, P stand for kernel size, stride, and padding respectively\relax }}{4324}{figure.caption.4}}
+\newlabel{fig:pred}{{4}{4324}{The Predictor network. Red represents 3D convolutions, green represents 2D convolutions, blue represents ReLUs, and yellow represents the squeeze operation to remove the time dimension. K, S, P stand for kernel size, stride, and padding respectively\relax }{figure.caption.4}{}}
+\citation{wang2003multiscale}
+\@writefile{toc}{\contentsline {section}{\numberline {5}\hskip -1em.\nobreakspace  {}Experiments \& Results}{4325}{section.5}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces Training curves of network experiments.\relax }}{4326}{figure.caption.5}}
+\newlabel{fig:plt}{{5}{4326}{Training curves of network experiments.\relax }{figure.caption.5}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {1}{\ignorespaces Network experiment results on validation set.\relax }}{4326}{table.caption.6}}
+\newlabel{tbl:exp}{{1}{4326}{Network experiment results on validation set.\relax }{table.caption.6}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces Color distortion seen with Batch Normalization: the clouds should be pink.\relax }}{4326}{figure.caption.7}}
+\newlabel{fig:monochrome}{{6}{4326}{Color distortion seen with Batch Normalization: the clouds should be pink.\relax }{figure.caption.7}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7}{\ignorespaces The predictor network's reconstruction of a given frame in Sintel, with no residual correction.\relax }}{4327}{figure.caption.8}}
+\newlabel{fig:noauto}{{7}{4327}{The predictor network's reconstruction of a given frame in Sintel, with no residual correction.\relax }{figure.caption.8}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {8}{\ignorespaces Blocking artifacts present in a reconstructed frame in Big Buck Bunny. Discontinuities are particularly visible in the brightly lit river.\relax }}{4327}{figure.caption.9}}
+\newlabel{fig:block}{{8}{4327}{Blocking artifacts present in a reconstructed frame in Big Buck Bunny. Discontinuities are particularly visible in the brightly lit river.\relax }{figure.caption.9}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {2}{\ignorespaces Full frame average MS-SSIM results on test set.\relax }}{4327}{table.caption.10}}
+\newlabel{tbl:results}{{2}{4327}{Full frame average MS-SSIM results on test set.\relax }{table.caption.10}{}}
+\citation{pytorch}
+\citation{tensorflow}
+\citation{opencv}
+\citation{ffmpeg}
+\citation{alfalfa}
 \bibstyle{ieee}
 \bibdata{egbib}
-\bibcite{blender}{1}
-\bibcite{xiph}{2}
-\bibcite{DBLP:journals/corr/AhnC17}{3}
-\bibcite{av1improv1}{4}
-\bibcite{DBLP:journals/corr/abs-1804-09869}{5}
-\bibcite{av1improv2}{6}
-\bibcite{DBLP:journals/corr/abs-1712-01111}{7}
-\bibcite{LeGall}{8}
-\bibcite{Minnen}{9}
-\bibcite{DBLP:journals/corr/TodericiOHVMBCS15}{10}
-\bibcite{DBLP:journals/corr/TodericiVJHMSC16}{11}
-\bibcite{van2001vision}{12}
-\bibcite{DBLP:journals/corr/abs-1804-06919}{13}
-\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces Example of a frame in 4K video from the \texttt  {objective-2-slow} dataset.}}{4323}{figure.1}}
-\@writefile{toc}{\contentsline {section}{\numberline {4}\hskip -1em.\nobreakspace  {}Methods}{4323}{section.4}}
-\@writefile{toc}{\contentsline {section}{\numberline {5}\hskip -1em.\nobreakspace  {}Experiments \& Results}{4323}{section.5}}
+\bibcite{alfalfa}{1}
+\bibcite{blender}{2}
+\bibcite{ffmpeg}{3}
+\bibcite{opencv}{4}
+\bibcite{pytorch}{5}
+\bibcite{tensorflow}{6}
+\bibcite{xiph}{7}
+\bibcite{DBLP:journals/corr/AhnC17}{8}
+\bibcite{av1improv1}{9}
+\bibcite{DBLP:journals/corr/abs-1804-09869}{10}
+\bibcite{av1improv2}{11}
+\bibcite{DBLP:journals/corr/HeZRS15}{12}
+\bibcite{DBLP:journals/corr/abs-1712-01111}{13}
+\bibcite{DBLP:journals/corr/IoffeS15}{14}
+\bibcite{LeGall}{15}
+\bibcite{Minnen}{16}
+\bibcite{DBLP:journals/corr/TodericiOHVMBCS15}{17}
+\bibcite{DBLP:journals/corr/TodericiVJHMSC16}{18}
+\bibcite{van2001vision}{19}
+\bibcite{wang2003multiscale}{20}
+\bibcite{DBLP:journals/corr/abs-1804-06919}{21}
+\@writefile{toc}{\contentsline {section}{\numberline {6}\hskip -1em.\nobreakspace  {}Conclusion \& Future Work}{4328}{section.6}}
+\@writefile{toc}{\contentsline {section}{\numberline {7}\hskip -1em.\nobreakspace  {}Contributions \& Acknowledgements}{4328}{section.7}}

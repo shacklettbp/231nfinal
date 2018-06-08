@@ -1,8 +1,28 @@
 \begin{thebibliography}{10}\itemsep=-1pt
 
+\bibitem{alfalfa}
+{Alfalfa Source Code}.
+\newblock \url{https://github.com/excamera/alfalfa}, 2018.
+
 \bibitem{blender}
 {Blender Open Projects}.
 \newblock \url{https://www.blender.org/about/projects/}, 2018.
+
+\bibitem{ffmpeg}
+{FFMpeg}.
+\newblock \url{https://www.ffmpeg.org}, 2018.
+
+\bibitem{opencv}
+{OpenCV}.
+\newblock \url{https://opencv.org}, 2018.
+
+\bibitem{pytorch}
+{PyTorch}.
+\newblock \url{https://pytorch.org}, 2018.
+
+\bibitem{tensorflow}
+{TensorFlow}.
+\newblock \url{https://www.tensorflow.org}, 2018.
 
 \bibitem{xiph}
 {Xiph.org Video Test Media [derf's collection]}.
@@ -30,11 +50,22 @@ C.~Fu, D.~Chen, E.~J. Delp, Z.~Lui, and F.~Zhu.
   neural networks.
 \newblock abs/1802.02992, 2018.
 
+\bibitem{DBLP:journals/corr/HeZRS15}
+K.~He, X.~Zhang, S.~Ren, and J.~Sun.
+\newblock Deep residual learning for image recognition.
+\newblock {\em CoRR}, abs/1512.03385, 2015.
+
 \bibitem{DBLP:journals/corr/abs-1712-01111}
 R.~Hou, C.~Chen, and M.~Shah.
 \newblock An end-to-end 3d convolutional neural network for action detection
   and segmentation in videos.
 \newblock {\em CoRR}, abs/1712.01111, 2017.
+
+\bibitem{DBLP:journals/corr/IoffeS15}
+S.~Ioffe and C.~Szegedy.
+\newblock Batch normalization: Accelerating deep network training by reducing
+  internal covariate shift.
+\newblock {\em CoRR}, abs/1502.03167, 2015.
 
 \bibitem{LeGall}
 D.~Le~Gall.
@@ -62,6 +93,13 @@ G.~Toderici, D.~Vincent, N.~Johnston, S.~J. Hwang, D.~Minnen, J.~Shor, and
 C.~van~den Branden~Lambrecht.
 \newblock {\em Vision Models and Applications to Image and Video Processing}.
 \newblock Springer US, 2001.
+
+\bibitem{wang2003multiscale}
+Z.~Wang, E.~P. Simoncelli, and A.~C. Bovik.
+\newblock Multiscale structural similarity for image quality assessment.
+\newblock In {\em Signals, Systems and Computers, 2004. Conference Record of
+  the Thirty-Seventh Asilomar Conference on}, volume~2, pages 1398--1402. Ieee,
+  2003.
 
 \bibitem{DBLP:journals/corr/abs-1804-06919}
 C.~Wu, N.~Singhal, and P.~Kr{\"{a}}henb{\"{u}}hl.

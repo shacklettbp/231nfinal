@@ -45,7 +45,7 @@ class FullCompress(nn.Module):
     def forward(self, ctx, truth):
         with torch.no_grad():
             pred = self.predictor(ctx)
-            
+
         res = truth - pred 
         enc_res = self.autoencoder(res)
 
@@ -119,7 +119,6 @@ pred_model = nn.Sequential(
     nn.Conv2d(64, 3, kernel_size=3, stride=1, padding=1),
 ).type(dtype)
 
-"""
 enc_model = nn.Sequential(
     nn.Conv2d(3, 64, 3, stride=1, padding=1),
     nn.ReLU(),
@@ -140,8 +139,8 @@ enc_model = nn.Sequential(
     ResBlock(64),
     nn.ConvTranspose2d(64, 3, 3, stride=1, padding=1)
 ).type(dtype)
-"""
 
+"""
 enc_model = nn.Sequential(
     nn.Conv2d(3, 64, 3, stride=1, padding=1),
     nn.ReLU(),
@@ -171,19 +170,24 @@ enc_model = nn.Sequential(
     ResBlock(64),
     nn.ConvTranspose2d(64, 3, 3, stride=1, padding=1)
 ).type(dtype)
+"""
 
 model = FullCompress(pred_model, enc_model)
 
-model.load_state_dict(torch.load("model_backctx_auto_less"))
+model.load_state_dict(torch.load("model_backctx_auto"))
 model = model.eval()
 model = model.type(dtype)
 
 vfile = VideoFile(sys.argv[1], int(sys.argv[2]), int(sys.argv[3]))
 
-output = cv2.VideoWriter("/tmp/o.avi", cv2.VideoWriter_fourcc(*"I420") , 24, (1280, 720), True)
 
 video = vfile.next_n_tensor(vfile.length())
+
+
 _, _, height, width = video.shape
+
+output = cv2.VideoWriter("/tmp/o.avi", cv2.VideoWriter_fourcc(*"I420") , 24, (width, height), True)
+
 new_height = math.ceil(height / 32)*32
 new_width = math.ceil(width / 32)*32
 pad_height = new_height - height
