@@ -16,6 +16,7 @@
 \gdef\HyperFirstAtBeginDocument#1{#1}
 \providecommand\HyField@AuxAddToFields[1]{}
 \providecommand\HyField@AuxAddToCoFields[2]{}
+\citation{netflix}
 \citation{av1improv1}
 \citation{av1improv2}
 \citation{LeGall}
@@ -41,22 +42,22 @@
 \citation{DBLP:journals/corr/IoffeS15}
 \@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces Input and output of the predictor network.\relax }}{4324}{figure.caption.3}}
 \newlabel{fig:ctx}{{3}{4324}{Input and output of the predictor network.\relax }{figure.caption.3}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces The Predictor network. Red represents 3D convolutions, green represents 2D convolutions, blue represents ReLUs, and yellow represents the squeeze operation to remove the time dimension. K, S, P stand for kernel size, stride, and padding respectively\relax }}{4324}{figure.caption.4}}
-\newlabel{fig:pred}{{4}{4324}{The Predictor network. Red represents 3D convolutions, green represents 2D convolutions, blue represents ReLUs, and yellow represents the squeeze operation to remove the time dimension. K, S, P stand for kernel size, stride, and padding respectively\relax }{figure.caption.4}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces The Predictor network. Red represents 3D convolutions, green represents 2D convolutions, blue represents ReLUs, and yellow represents the squeeze operation to remove the time dimension. K, S, and P stand for kernel size, stride, and padding respectively.\relax }}{4324}{figure.caption.4}}
+\newlabel{fig:pred}{{4}{4324}{The Predictor network. Red represents 3D convolutions, green represents 2D convolutions, blue represents ReLUs, and yellow represents the squeeze operation to remove the time dimension. K, S, and P stand for kernel size, stride, and padding respectively.\relax }{figure.caption.4}{}}
 \citation{wang2003multiscale}
+\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces The Autoencoder network. Green represents 2D convolutions, purple represents 2D transposed convolutions, blue represents ReLUs, and yellow represents an optional quantization operation.\relax }}{4325}{figure.caption.5}}
+\newlabel{fig:auto}{{5}{4325}{The Autoencoder network. Green represents 2D convolutions, purple represents 2D transposed convolutions, blue represents ReLUs, and yellow represents an optional quantization operation.\relax }{figure.caption.5}{}}
 \@writefile{toc}{\contentsline {section}{\numberline {5}\hskip -1em.\nobreakspace  {}Experiments \& Results}{4325}{section.5}}
-\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces Training curves of network experiments.\relax }}{4326}{figure.caption.5}}
-\newlabel{fig:plt}{{5}{4326}{Training curves of network experiments.\relax }{figure.caption.5}{}}
-\@writefile{lot}{\contentsline {table}{\numberline {1}{\ignorespaces Network experiment results on validation set.\relax }}{4326}{table.caption.6}}
-\newlabel{tbl:exp}{{1}{4326}{Network experiment results on validation set.\relax }{table.caption.6}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces Color distortion seen with Batch Normalization: the clouds should be pink.\relax }}{4326}{figure.caption.7}}
-\newlabel{fig:monochrome}{{6}{4326}{Color distortion seen with Batch Normalization: the clouds should be pink.\relax }{figure.caption.7}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {7}{\ignorespaces The predictor network's reconstruction of a given frame in Sintel, with no residual correction.\relax }}{4327}{figure.caption.8}}
-\newlabel{fig:noauto}{{7}{4327}{The predictor network's reconstruction of a given frame in Sintel, with no residual correction.\relax }{figure.caption.8}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {8}{\ignorespaces Blocking artifacts present in a reconstructed frame in Big Buck Bunny. Discontinuities are particularly visible in the brightly lit river.\relax }}{4327}{figure.caption.9}}
-\newlabel{fig:block}{{8}{4327}{Blocking artifacts present in a reconstructed frame in Big Buck Bunny. Discontinuities are particularly visible in the brightly lit river.\relax }{figure.caption.9}{}}
-\@writefile{lot}{\contentsline {table}{\numberline {2}{\ignorespaces Full frame average MS-SSIM results on test set.\relax }}{4327}{table.caption.10}}
-\newlabel{tbl:results}{{2}{4327}{Full frame average MS-SSIM results on test set.\relax }{table.caption.10}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces Training curves of network experiments.\relax }}{4326}{figure.caption.6}}
+\newlabel{fig:plt}{{6}{4326}{Training curves of network experiments.\relax }{figure.caption.6}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {1}{\ignorespaces Network experiment results on validation set.\relax }}{4326}{table.caption.7}}
+\newlabel{tbl:exp}{{1}{4326}{Network experiment results on validation set.\relax }{table.caption.7}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7}{\ignorespaces Color distortion seen with Batch Normalization: the clouds should be pink.\relax }}{4327}{figure.caption.8}}
+\newlabel{fig:monochrome}{{7}{4327}{Color distortion seen with Batch Normalization: the clouds should be pink.\relax }{figure.caption.8}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {8}{\ignorespaces The predictor network's reconstruction of a given frame in Sintel, with no residual correction.\relax }}{4327}{figure.caption.9}}
+\newlabel{fig:noauto}{{8}{4327}{The predictor network's reconstruction of a given frame in Sintel, with no residual correction.\relax }{figure.caption.9}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {9}{\ignorespaces Blocking artifacts present in a reconstructed frame in Big Buck Bunny. Discontinuities are particularly visible in the brightly lit river.\relax }}{4327}{figure.caption.10}}
+\newlabel{fig:block}{{9}{4327}{Blocking artifacts present in a reconstructed frame in Big Buck Bunny. Discontinuities are particularly visible in the brightly lit river.\relax }{figure.caption.10}{}}
 \citation{pytorch}
 \citation{tensorflow}
 \citation{opencv}
@@ -67,23 +68,26 @@
 \bibcite{alfalfa}{1}
 \bibcite{blender}{2}
 \bibcite{ffmpeg}{3}
-\bibcite{opencv}{4}
-\bibcite{pytorch}{5}
-\bibcite{tensorflow}{6}
-\bibcite{xiph}{7}
-\bibcite{DBLP:journals/corr/AhnC17}{8}
-\bibcite{av1improv1}{9}
-\bibcite{DBLP:journals/corr/abs-1804-09869}{10}
-\bibcite{av1improv2}{11}
-\bibcite{DBLP:journals/corr/HeZRS15}{12}
-\bibcite{DBLP:journals/corr/abs-1712-01111}{13}
-\bibcite{DBLP:journals/corr/IoffeS15}{14}
-\bibcite{LeGall}{15}
-\bibcite{Minnen}{16}
-\bibcite{DBLP:journals/corr/TodericiOHVMBCS15}{17}
-\bibcite{DBLP:journals/corr/TodericiVJHMSC16}{18}
-\bibcite{van2001vision}{19}
-\bibcite{wang2003multiscale}{20}
-\bibcite{DBLP:journals/corr/abs-1804-06919}{21}
+\bibcite{netflix}{4}
+\@writefile{lot}{\contentsline {table}{\numberline {2}{\ignorespaces Full frame average MS-SSIM results on test set.\relax }}{4328}{table.caption.11}}
+\newlabel{tbl:results}{{2}{4328}{Full frame average MS-SSIM results on test set.\relax }{table.caption.11}{}}
 \@writefile{toc}{\contentsline {section}{\numberline {6}\hskip -1em.\nobreakspace  {}Conclusion \& Future Work}{4328}{section.6}}
 \@writefile{toc}{\contentsline {section}{\numberline {7}\hskip -1em.\nobreakspace  {}Contributions \& Acknowledgements}{4328}{section.7}}
+\bibcite{opencv}{5}
+\bibcite{pytorch}{6}
+\bibcite{tensorflow}{7}
+\bibcite{xiph}{8}
+\bibcite{DBLP:journals/corr/AhnC17}{9}
+\bibcite{av1improv1}{10}
+\bibcite{DBLP:journals/corr/abs-1804-09869}{11}
+\bibcite{av1improv2}{12}
+\bibcite{DBLP:journals/corr/HeZRS15}{13}
+\bibcite{DBLP:journals/corr/abs-1712-01111}{14}
+\bibcite{DBLP:journals/corr/IoffeS15}{15}
+\bibcite{LeGall}{16}
+\bibcite{Minnen}{17}
+\bibcite{DBLP:journals/corr/TodericiOHVMBCS15}{18}
+\bibcite{DBLP:journals/corr/TodericiVJHMSC16}{19}
+\bibcite{van2001vision}{20}
+\bibcite{wang2003multiscale}{21}
+\bibcite{DBLP:journals/corr/abs-1804-06919}{22}

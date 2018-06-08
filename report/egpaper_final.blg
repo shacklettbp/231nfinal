@@ -17,6 +17,9 @@ Warning--entry type for "ffmpeg" isn't style-file defined
 --line 216 of file egbib.bib
 Warning--entry type for "alfalfa" isn't style-file defined
 --line 223 of file egbib.bib
+Warning--entry type for "netflix" isn't style-file defined
+--line 230 of file egbib.bib
+Warning--to sort, need author or key in netflix
 Warning--to sort, need author or key in xiph
 Warning--to sort, need author or key in blender
 Warning--to sort, need author or key in pytorch
@@ -27,45 +30,45 @@ Warning--to sort, need author or key in alfalfa
 Warning--empty journal in av1improv1
 Warning--empty journal in av1improv2
 Warning--empty journal in Minnen
-You've used 21 entries,
+You've used 22 entries,
             2120 wiz_defined-function locations,
-            598 strings with 6789 characters,
-and the built_in function-call counts, 5632 in all, are:
-= -- 530
-> -- 302
+            601 strings with 6880 characters,
+and the built_in function-call counts, 5795 in all, are:
+= -- 546
+> -- 303
 < -- 2
-+ -- 124
++ -- 125
 - -- 102
-* -- 358
-:= -- 943
-add.period$ -- 57
-call.type$ -- 21
-change.case$ -- 113
+* -- 364
+:= -- 961
+add.period$ -- 59
+call.type$ -- 22
+change.case$ -- 116
 chr.to.int$ -- 0
-cite$ -- 31
-duplicate$ -- 207
-empty$ -- 440
+cite$ -- 33
+duplicate$ -- 214
+empty$ -- 463
 format.name$ -- 102
-if$ -- 1175
+if$ -- 1216
 int.to.chr$ -- 0
-int.to.str$ -- 21
+int.to.str$ -- 22
 missing$ -- 15
-newline$ -- 101
+newline$ -- 105
 num.names$ -- 28
-pop$ -- 137
+pop$ -- 145
 preamble$ -- 1
-purify$ -- 93
+purify$ -- 95
 quote$ -- 0
-skip$ -- 173
+skip$ -- 180
 stack$ -- 0
-substring$ -- 165
-swap$ -- 31
+substring$ -- 170
+swap$ -- 32
 text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 82
-warning$ -- 10
+type$ -- 86
+warning$ -- 11
 while$ -- 33
-width$ -- 23
-write$ -- 210
-(There were 17 warnings)
+width$ -- 24
+write$ -- 218
+(There were 19 warnings)

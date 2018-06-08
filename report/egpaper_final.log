@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.4.5)  7 JUN 2018 22:51
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.4.5)  7 JUN 2018 23:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -457,7 +457,7 @@ Underfull \hbox (badness 1616) in paragraph at lines 77--78
 \OT1/ptm/m/n/10 ing pur-poses. For the pur-poses of this project, the
  []
 
-[4322] <data_example.png, id=45, 1927.2pt x 1013.7875pt>
+[4322] <data_example.png, id=47, 1927.2pt x 1013.7875pt>
 File: data_example.png Graphic file (type png)
 
 <use data_example.png>
@@ -473,13 +473,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 85--85
 \OT1/ptm/m/n/10 flix[]SquareAndTimelapse'' video from the
  []
 
-<core_flow.png, id=49, 790.955pt x 381.425pt>
+<core_flow.png, id=51, 790.955pt x 381.425pt>
 File: core_flow.png Graphic file (type png)
  <use core_flow.png>
 Package pdftex.def Info: core_flow.png used on input line 95.
 (pdftex.def)             Requested size: 237.13594pt x 114.3527pt.
 
-<pred_flow.png, id=51, 431.6125pt x 259.97125pt>
+<pred_flow.png, id=53, 431.6125pt x 259.97125pt>
 File: pred_flow.png Graphic file (type png)
  <use pred_flow.png>
 Package pdftex.def Info: pred_flow.png used on input line 105.
@@ -488,7 +488,7 @@ Package pdftex.def Info: pred_flow.png used on input line 105.
 Underfull \vbox (badness 2735) has occurred while \output is active []
 
  [4323 <./data_example.png> <./core_flow.png>]
-<pred_net.png, id=62, 490.83376pt x 510.90875pt>
+<pred_net.png, id=64, 490.83376pt x 510.90875pt>
 File: pred_net.png Graphic file (type png)
  <use pred_net.png>
 Package pdftex.def Info: pred_net.png used on input line 116.
@@ -496,70 +496,81 @@ Package pdftex.def Info: pred_net.png used on input line 116.
 
 Underfull \vbox (badness 1189) has occurred while \output is active []
 
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 128.
 
+<auto.png, id=68, 522.95375pt x 681.54625pt>
+File: auto.png Graphic file (type png)
+ <use auto.png>
+Package pdftex.def Info: auto.png used on input line 130.
+(pdftex.def)             Requested size: 189.70947pt x 247.23877pt.
+ [4324 <./pred_flow.png> <./pred_net.png>]
+Underfull \vbox (badness 2005) has occurred while \output is active []
 
-LaTeX Warning: Reference `fig:auto' on page 4324 undefined on input line 128.
-
-[4324 <./pred_flow.png> <./pred_net.png>] [4325]
-<graph.png, id=91, 433.62pt x 289.08pt>
+ [4325 <./auto.png>] <graph.png, id=94, 433.62pt x 289.08pt>
 File: graph.png Graphic file (type png)
  <use graph.png>
-Package pdftex.def Info: graph.png used on input line 160.
+Package pdftex.def Info: graph.png used on input line 168.
 (pdftex.def)             Requested size: 189.70947pt x 126.47218pt.
 
-<green.png, id=95, 307.3884pt x 171.2799pt>
+<green.png, id=98, 307.3884pt x 171.2799pt>
 File: green.png Graphic file (type png)
  <use green.png>
-Package pdftex.def Info: green.png used on input line 190.
+Package pdftex.def Info: green.png used on input line 198.
 (pdftex.def)             Requested size: 189.70947pt x 105.71155pt.
 
-<noauto.png, id=97, 318.18875pt x 282.05376pt>
+Underfull \vbox (badness 1939) has occurred while \output is active []
+
+ [4326 <./graph.png>] <noauto.png, id=112, 318.18875pt x 282.05376pt>
 File: noauto.png Graphic file (type png)
  <use noauto.png>
-Package pdftex.def Info: noauto.png used on input line 199.
+Package pdftex.def Info: noauto.png used on input line 207.
 (pdftex.def)             Requested size: 189.70947pt x 168.16191pt.
- [4326 <./graph.png> <./green.png>] <block.png, id=108, 415.5525pt x 539.01375p
-t>
-File: block.png Graphic file (type png)
 
-<use block.png>
-Package pdftex.def Info: block.png used on input line 209.
+<block.png, id=113, 415.5525pt x 539.01375pt>
+File: block.png Graphic file (type png)
+ <use block.png>
+Package pdftex.def Info: block.png used on input line 217.
 (pdftex.def)             Requested size: 94.85292pt x 123.03293pt.
- [4327 <./noauto.png (PNG copy)> <./block.png>]
-(./egpaper_final.bbl
+ [4327 <./green.png> <./noauto.png (PNG copy)> <./block.png>] (./egpaper_final.
+bbl
 Underfull \hbox (badness 10000) in paragraph at lines 4--6
 []\OT1/ptm/m/n/9 Alfalfa Source Code.  []$\OT1/pcr/m/n/9 https : / / github . c
 om /
  []
 
 
-Underfull \hbox (badness 1005) in paragraph at lines 37--41
+Underfull \hbox (badness 10000) in paragraph at lines 16--19
+[]\OT1/ptm/m/n/9 Netflix on AV1.  []$\OT1/pcr/m/n/9 https : / /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 16--19
+\OT1/pcr/m/n/9 streaminglearningcenter . com / codecs /
+ []
+
+[4328]
+Underfull \hbox (badness 1005) in paragraph at lines 42--46
 []\OT1/ptm/m/n/9 D. Chen, C. Fu, and F. Zhu.  Av1 video cod-ing us-
  []
 
 )
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 250.
- [4328]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 250.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 264.
+ [4329
+
+]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 264.
  (./egpaper_final.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 250.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 250.
-
-
-LaTeX Warning: There were undefined references.
-
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 250.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 264.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 264.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 264.
  ) 
 Here is how much of TeX's memory you used:
- 7705 strings out of 494939
- 113101 string characters out of 6181379
- 204936 words of memory out of 5000000
- 10832 multiletter control sequences out of 15000+600000
- 29066 words of font info for 72 fonts, out of 8000000 for 9000
+ 7711 strings out of 494939
+ 113172 string characters out of 6181379
+ 206191 words of memory out of 5000000
+ 10835 multiletter control sequences out of 15000+600000
+ 27440 words of font info for 70 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 36i,16n,39p,2436b,399s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 36i,16n,39p,2438b,469s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texmf-dist/fon
 ts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-dist/fonts/type1/publi
 c/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/
@@ -569,10 +580,10 @@ t/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/
 urw/courier/ucrr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmb8a.pfb>
 </usr/share/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texmf-dist/
 fonts/type1/urw/times/utmri8a.pfb>
-Output written on egpaper_final.pdf (8 pages, 7613258 bytes).
+Output written on egpaper_final.pdf (9 pages, 7644294 bytes).
 PDF statistics:
- 193 PDF objects out of 1000 (max. 8388607)
- 159 compressed objects within 2 object streams
- 52 named destinations out of 1000 (max. 500000)
- 41 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 207 PDF objects out of 1000 (max. 8388607)
+ 170 compressed objects within 2 object streams
+ 55 named destinations out of 1000 (max. 500000)
+ 46 words of extra memory for PDF output out of 10000 (max. 10000000)
 
